@@ -1,0 +1,27 @@
+.coffee__position {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.coffee {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  &__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__card {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    margin-bottom: 35px;
+    background-color: $color-back-coffee;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}
