@@ -1,50 +1,50 @@
 .menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    
-    padding: 20px 10% 0 10%;
-    line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
-        h1 {
-            text-transform: uppercase;
-            font-size: 2.3rem;
-            margin-bottom: 15px;
-            padding-left: 18px;
-        }
+  padding: 20px 10% 0 10%;
+  line-height: 1.5;
 
-        h2 {
-            text-transform: uppercase;
-            font-size: 1.9rem;
-            margin: 12px 0;
-        }
+  h1 {
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    margin-bottom: 15px;
+    padding-left: 18px;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    margin: 12px 0;
+  }
 }
 
 .alone {
-    padding-left: 18px;
+  padding-left: 18px;
 }
 
 .upper-section,
 .lower-section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
-        .category {
-        width: 350px;
-        margin: 0 20px;
+  .category {
+    width: 350px;
+    margin: 0 20px;
 
-            &__items {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-            }
-        }
+    &__items {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
 }
 
 .bottom-img img {
-    width: 100%;
-    margin-bottom: -50px;
-    margin-top: 30px;
+  width: 100%;
+  margin-bottom: -30px;
+  margin-top: 30px;
 }
