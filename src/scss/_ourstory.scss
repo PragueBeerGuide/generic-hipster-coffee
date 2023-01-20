@@ -1,0 +1,54 @@
+.ourstory__position {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ourstory {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  padding: 25px;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+  &__text {
+    line-height: 28px;
+    margin-bottom: 25px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 100%;
+  background-color: $color-back-coffee;
+  color: black;
+  border: solid 1px black;
+  border-radius: 1.6rem;
+  .form__name {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    input {
+      height: 25px;
+      border-radius: 0.5rem;
+    }
+  }
+  .form__happy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .form__feedback {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.ourstory__form-position {
+  display: flex;
+  justify-content: center;
+}
