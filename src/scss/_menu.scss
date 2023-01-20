@@ -31,25 +31,25 @@
 
 .upper-section,
 .lower-section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
-        .category {
-        width: 350px;
-        margin: 0 20px;
+  .category {
+    width: 350px;
+    margin: 0 20px;
 
-            &__items {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-            }
-        }
+    &__items {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
 }
 
 .bottom-img img {
-    width: 100%;
-    margin-bottom: -40px;
-    margin-top: 30px;
+  width: 100%;
+  margin-bottom: -30px;
+  margin-top: 30px;
 }
