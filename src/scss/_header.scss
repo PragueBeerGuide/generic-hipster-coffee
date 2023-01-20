@@ -27,8 +27,14 @@
 
         a {
             color: $color_text-nav;
+            font-size: 1.3rem;
             text-decoration: none;
             padding: 20px;
+
+            &:hover:not(.active) {
+                border: solid 1px black;
+                border-radius: 10px;
+              }
         }  
     }
   
@@ -47,3 +53,9 @@
         }
    }
 }
+
+.active {
+    color: black;
+    font-weight: 600;
+}
+
